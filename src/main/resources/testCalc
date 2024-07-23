@@ -1,0 +1,12 @@
+operation,num1,num2
+add,2,2
+subtract,5,3
+multiply,3,4
+divide,10,2
+divide,10,0,Error: Division by zero
+multiply,10000000000,10000000000
+add,1.0000001,1.0000001
+add,1.00000001,1.00000001
+multiply,9999999999999999,9
+multiply,2,"(add 3 2)"
+add,-1.0E500,1.0E510

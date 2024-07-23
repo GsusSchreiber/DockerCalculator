@@ -31,7 +31,7 @@ public class CalculatorTest {
 
     @Parameterized.Parameters
     public static Collection<Object[]> data() throws IOException {
-        return readTestDataFromCSV("src/main/resources/testData1");
+        return readTestDataFromCSV("src/main/resources/testData");
     }
 
     private static List<Object[]> readTestDataFromCSV(String filePath) throws IOException {
